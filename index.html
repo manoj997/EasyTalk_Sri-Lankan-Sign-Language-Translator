@@ -38,7 +38,7 @@
     <div class="container">
 
       <div class="logo float-left">
-        <a href="#intro" class="scrollto"><img src="img/EasyTalkLogo.png" alt="" class="img-fluid"></a>
+        <a href="#intro" class="scrollto"><img src="img/logo1.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
@@ -77,8 +77,10 @@
 
       <div class="intro-info" data-wow-duration="0.2s">
        
-        <h2> EasyTalk </h2>
-        <h3 style="color: white; float:right;">A Translator for Sri Lankan Sign Language</h3>
+        <h2>  <img src="img/EasyTalkLogo.png" style="width:20%"> &nbsp;EasyTalk</h2>
+        <p class="description text-justify"  style="color: white; font-size:15px">
+          Sign  language is used by the hearing-impaired and inarticulate community to communicate with each other. Not all in the society are aware of the sign language and people do require a translation. Mostly, Sri Lankan Sign Language is tightly bound to the hearing-impairies and inarticulates which makes it difficult for the verbally-challengables to communicate with normal people in Sri Lanka. As a solution, we present  a translator which will translate the Sri Lankan Sign Language into text-speech and vice-versa which would benefit the verbally challenged to express their ideas back and forth. 
+        </p>
         <div>
           <a href="#scope" class="btn-get-started scrollto">Get Started</a>
         </div>
@@ -104,7 +106,7 @@
             <img src="img/survey.svg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-            <h4>LITERATURE SURVEY</h4>
+            <h4 class="text-center">LITERATURE SURVEY</h4>
             <p class="text-justify" style="font-size: 15px;">
               Researches related to sign languages are done around the world. Chinese sign language, 
               American sign language, and Sinhala are some of them. These sign language detections have two approaches. 
@@ -132,7 +134,7 @@
           </div>
 
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-wow-duration="0.4s">
-            <h4>RESEARCH GAP</h4>
+            <h4 class="text-center">RESEARCH GAP</h4>
             <p class="text-justify" style="font-size: 15px;">
               The first reason is Sri Lanka still listed as a developing country. 
               The tools & technologies which were used to build such systems by other countries are very expensive nowadays.
@@ -155,9 +157,9 @@
               <img src="img/about-extra-1.svg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
-              <h4>RESEARCH PROBLEM</h4>
+              <h4 class="text-center">RESEARCH PROBLEM</h4>
               <div class="about-container">
-                <div class="col-lg-10">
+                <div class="col-lg-12">
                       <ul class="list-group">
                         <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Sri Lanka relies on tourism and education for its growth.</li>
                         <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Reliable communication between every citizen is key for country’s growth</li>
@@ -175,7 +177,7 @@
           </div>
 
           <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
-            <h4>OBJECTIVES</h4> </br>
+            <h4 class="text-center">OBJECTIVES</h4> </br>
             <!-- main object -->
             <h5>MAIN OBJECTIVE</h5>
             <div class="about-container">
@@ -204,95 +206,61 @@
 
         <div class="row about-extra">
           <div class="col-lg-12 wow fadeInUp pt-5 pt-lg-0">
-            <h4>METHODOLOGY</h4>
+            <h4 class="text-center">METHODOLOGY</h4>
+
+            <br/>
 
             <div class="row">
-              <div class="col-sm-2"></div>
-              <div class="col-sm-8">
-                <div class="card">
-                  <div class="card-header">
-                    <h5>Data Acquisition</h5>
-                  </div>
-                  <div class="card-body">
-                    <ul class="list-group" style="font-size: 15px;">
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Creating Dataset using 500 SSL hand images </li>
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Building a model using Faster RCNN on top of Tensoflow models</li>
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i> Detecting user-images on a live camera stream</li>
-                    </ul>
-                  </div>
+              <div class="col-md-4 col-md-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box">
+                  <h5 class="title"><b>Data Acquisition:</b></h5>
+                  <ul class="list-group" style="font-size: 15px;">
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Creating Dataset using 500 SSL hand images </li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Building a model using Faster RCNN</li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i> Detecting user-images on a live camera stream</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-sm-2"></div>
+              <div class="col-md-4 col-md-5 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box">
+                  <h5 class="title"><b>Sign Language Classification:</b></h5>
+                  <ul class="list-group" style="font-size: 15px;">
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Building a model using CNN to interpret signs </li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Checking the accuracy of the user's hand image</li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Creating an API to fetch the identified letters</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-
-              <br/>
-              
+            <br/>
             <div class="row">
-              <div class="col-sm-2"></div>
-              <div class="col-sm-8">
-                <div class="card">
-                  <div class="card-header">
-                    <h5>Sign Language Classification</h5>
-                  </div>
-                  <div class="card-body">
-                    <ul class="list-group" style="font-size: 15px;">
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Building a model using CNN algorithm to interpret signs </li>
-                    </ul>
-                  </div>
+              <div class="col-md-4 col-md-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box">
+                  <h5 class="title"><b>Text-Audio Output Generation:</b></h5>
+                  <ul class="list-group" style="font-size: 15px;">
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Converting output into a textual format </li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Checking the spelling mistakes in each collection</li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Converting output into audio-format</li>
+                  </ul>
                 </div>
               </div>
-              <div class="col-sm-2"></div>
-            </div>  
-             
-              <br/>
+              <div class="col-md-4 col-md-5 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box">
+                  <h5 class="title"><b>Text to Sign Language Convertion:</b></h5>
+                  <ul class="list-group" style="font-size: 15px;">
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Detecting user-inserted text using NLP</li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Building a model to identify relevant signs for a text</li>
+                    <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Creating a GIF images using hand signs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
             
-            <div class="row">  
-              <div class="col-sm-2"></div>
-              <div class="col-sm-8">
-                <div class="card">
-                  <div class="card-header">
-                    <h5>Text-Audio Output Generation</h5>
-                  </div>
-                  <div class="card-body">
-                    <ul class="list-group" style="font-size: 15px;">
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Converting output into a textual format </li>
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Checking the spelling mistakes in each collection</li>
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Converting output into audio-format</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-2"></div>
-            </div>
-             
-              <br/>
-             
-            <div class="row">
-              <div class="col-sm-2"></div>
-              <div class="col-sm-8">
-                <div class="card">
-                  <div class="card-header">
-                    <h5>Text to Sign Language Convertion</h5>
-                  </div>
-                  <div class="card-body">
-                    <ul class="list-group" style="font-size: 15px;">
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Detecting user-inserted text using NLP</li>
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Building a model to identify relevant signs for a text</li>
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Creating a GIF images using hand signs</li>
-                      <li class="list-group-item text-justify description" style="border: none;"><i class="fas fa-dot-circle text-info mx-2"></i>Displaying results in real-time</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-2"></div>
-            </div>
-          </div>
-        </div>
 
         <div class="row about-extra">
           
           <div class="col-md-12 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-wow-duration="0.6s">
-            <h4>TECHNOLOGIES USED</h4>
+            <h4 class="text-center">TECHNOLOGIES USED</h4>
            
             <div class="row">
               <div class="col-sm-3 wow bounceInUp" data-wow-duration="1.4s">
@@ -814,9 +782,6 @@
       <div class="copyright">
         &copy; Copyright <strong>EASYTALK TEAM</strong>. All Rights Reserved
       </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">EASYTALK TEAM</a>
-      </div>
     </div>
   </footer><!-- #footer -->
 
@@ -830,7 +795,6 @@
   <script src="lib/mobile-nav/mobile-nav.js"></script>
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/isotope/isotope.pkgd.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
