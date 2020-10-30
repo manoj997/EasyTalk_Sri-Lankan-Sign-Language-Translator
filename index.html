@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EASYTALK</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/gitlab.jpg" rel="icon">
+  <link href="img/EasyTalkFavicon.png" rel="EasyTalkFavicon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/timeline.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <a href="#intro" class="scrollto"><img src="img/EasyTalkLogo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#scope">Research Scope</a></li>
+          <li class="drop-down"><a href="#milestone">Research Milestones</a>
+            <ul>
+              <li><a href="#proposal">Project Proposal</a></li>
+              <li><a href="#pp1">Progress Presentation I</a></li>
+              <li><a href="#pp2">Progress Presenatation II</a></li>
+              <li><a href="#demo">Demo</a></li>
+              <li><a href="#finalprep">Final Assessment</a></li>
+              <li><a href="#viva">Viva</a></li>
+            </ul>
+          </li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#presentations">Presentations</a></li>
+          <li><a href="#aboutUs">About Team</a></li>
+          <li><a href="#contactUs">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- .main-nav -->
+      
+    </div>
+  </header>
+  <!-- #header -->
+
+  <!-- Intro Section -->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="img/intro-bg-ani.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info" data-wow-duration="0.2s">
+       
+        <h2> A TRANSLATOR FOR<br><span>SRI LANKAN</span><br>SIGN LANGUAGE </h2>
+        <div>
+          <a href="#scope" class="btn-get-started scrollto">Get Started</a>
+          <a href="#documents" class="btn-services scrollto">Research Documents</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- #intro -->
+  
+  <br/>
+
+  <main id="main">
+
+    <!-- Project Scope Section -->
+    <section id="scope">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Research Scope</h3>
+          <p>This section has details about EASY TALK project</p>
+        </header>
+
+
+        <div class="row about-extra" data-wow-duration="0.2s">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/survey.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>LITERATURE SURVEY</h4>
+            <p>
+              Researches related to sign languages are done around the world. Chinese sign language, 
+              American sign language, and Sinhala are some of them. These sign language detections have two approaches. 
+              One is image or vision-based and the other one is device-based.
+              In general, the identification of signs includes pre-processing, extraction of features, and classification in a simple phase. 
+              Pre-processing is done in the sense to remove an unwanted element from the context. From the Region of Interest (ROI),
+               image feature will be extracted, and it will be classified using a certain method. 
+            </p>
+            <p>
+              When talking about device-based sign recognition, a system is proposed by Gibran & team for Mexican sign language using Kinect sensor.
+              The system will store the colour, depth and the skeleton tracking information using the RGB-D camera. Dynamic Time Wrapping (DTW)
+              algorithm had been used in this system to interpret gestures.
+            </p>
+            <p>  Haar Cascade Classifier has shown 92.68% accuracy in Kanchan & Surekha’s work.
+                 They have interpreted Indian sign language using webcam images. However, 
+                 some images are not classified because of high motion gestures. 
+                 For the same sign language, Probabilistic Neural Network (PNN) classifier 
+                 has shown more accuracy than K-Nearest Neighbor (KNN) classifier. </p>
+          </div>
+        </div>
+
+        <div class="row about-extra"  data-wow-duration="0.4s">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-wow-duration="0.4s">
+            <h4>RESEARCH GAP</h4>
+            <p>
+              The first reason is Sri Lanka still listed as a developing country. 
+              The tools & technologies which were used to build such systems by other countries are very expensive nowadays.
+              Sri  Lankan government cannot be able to spend that amount of money for only one main purpose.
+              The second reason is that even we buy one of those system, 
+              people cannot get the benefits of the system as each country has their own sign language. 
+            </p>
+            <p>
+              Another reason is that,  the system which already implemented for a specific language such as Sinhala. Due to this reason,
+              if any person who doesn’t have a proper practice in that language won’t understand the system. 
+              Therefore,by-today the ordinary people who are willing to communicate with hearing-impaired & mute people have challenged
+              with a huge communicating gap in their daily lives. 
+            </p>
+          </div>
+          
+        </div>
+
+        <div class="row about-extra"  data-wow-duration="0.6s">
+            <div class="col-lg-6 wow fadeInUp">
+              <img src="img/about-extra-1.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+              <h4>RESEARCH PROBLEM</h4>
+              <div class="about-container">
+                <div class="col-lg-10">
+                    <div class="icon-box wow fadeInUp">
+                        <div class="icon"><i class="fa fa-star"></i></div>
+                        <p class="description">Sri Lanka relies on tourism and education for its growth.</p>
+                    </div>
+    
+                      <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon"><i class="fa fa-star"></i></div>
+                        <p class="description">Reliable communication between every citizen is key for country’s growth </p>
+                      </div>
+
+                      <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="icon"><i class="fa fa-star"></i></div>
+                        <p class="description">The verbal and hearing impaired need a reliable and an easy go-to solution.</p>
+                      </div>
+
+                      <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="icon"><i class="fa fa-star"></i></div>
+                        <p class="description">Such a translating solution should increase such person’s value</p>
+                      </div>
+                </div>
+              </div> 
+            </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/objective.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>OBJECTIVES</h4> </br>
+            <!-- main object -->
+            <h5>MAIN OBJECTIVE</h5>
+            <div class="about-container">
+              <div class="icon-box wow fadeInUp">
+                <div class="icon"><i class="fa fa-star"></i></div>
+                <p class="description">The main idea of this research is to improve the communication bond between the ordinary people & 
+                   people with difficulties in hearing & speaking. To successfully fulfil the above idea, this system should be able to 
+                   convert SSL into text formator audio format & converting English text format into SSL using low-resolution web application.
+                </p>
+              </div>
+             </div> 
+
+             <!-- Specific objects -->
+             <h5>SPECIFIC OBJECTIVES</h5>
+
+             <div class="about-container">
+              <div class="col-lg-11">
+              <div class="icon-box wow fadeInUp">
+                <div class="icon" style="w"><i class="fa fa-star"></i></div>
+              </div>
+  
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon"><i class="fa fa-star"></i></div>
+                <p class="description">To use ML algorithms effectively for detected sign classification</p>
+              </div>
+
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon"><i class="fa fa-star"></i></div>
+                <p class="description">To display the detected hand sign meaning in textual or voice format in real-time</p>
+              </div>
+
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon"><i class="fa fa-star"></i></div>
+                <p class="description">To translate user-entered text into relevant SSL hand sign</p>
+              </div>
+            </div>
+          </div>          
+        </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/working.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>METHODOLOGY</h4>
+
+                <h5 >01. Data Acquisition</h5>   
+                  <div class="ml-5v wow fadeInUp" data-wow-delay="0.2s">       
+                      <p> <i class="fa fa-star"></i> &nbsp; Dataset created from 500 hand images for each letter in Sri Lankan Sign language alphabet. (English) </p>
+                      <p> <i class="fa fa-star"></i> &nbsp; Faster RCNN on top of TensorFlow models for building a model. </p>
+                      <p> <i class="fa fa-star"></i> &nbsp; Detecting hand on a live camera stream.</p> 
+                  </div>   
+                <h5>02. Sign Language Classification</h5>   
+                    <div class="ml-5 wow fadeInUp" data-wow-delay="0.4s">                
+                        <p>  <i class="fa fa-star"></i> &nbsp;  Building a machine learning model using CNN algorithm to interpret sign images </p>
+                        <p>  <i class="fa fa-star"></i> &nbsp; Converting the model into API which can be reusable. </p> 
+                    </div>  
+                <h5>03. Generate Text and Audio Output</h5> 
+                    <div class="ml-5 wow fadeInUp " data-wow-delay="0.6s">
+                        <p>  <i class="fa fa-star"></i> &nbsp; Convert alphabet into a textual format Convert alphabet into a textual format </p>
+                        <p>  <i class="fa fa-star"></i> &nbsp; Check the spelling for each collection </p>
+                        <p>  <i class="fa fa-star"></i> &nbsp; Convert text to speech local languages </p>
+                    </div>
+                <h5>04. Text to Sign Language Convertor</h5>  
+                    <div class="ml-5 wow fadeInUp" data-wow-delay="0.8s">
+                        <p>  <i class="fa fa-star"></i> &nbsp; Get input text and check whether it’s a word or sentence </p>
+                        <p>  <i class="fa fa-star"></i> &nbsp; If it’s a common word like “Good Morning” or “Hi”, get the images and create GIF image.</p>
+                        <p>  <i class="fa fa-star"></i> &nbsp; If it’s a rare word, tokenize it and get images for each letter and generate GIF. Send GIF image back to user.</p> 
+                    </div>    
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          
+          <div class="col-md-12 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-wow-duration="0.6s">
+            <h4>TECHNOLOGIES USED</h4>
+           
+            <div class="row">
+              <div class="col-sm-3 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box">
+                  <div class="icon"><img src="img/VS Code.png" style="width:80%"/></div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 wow bounceInUp" data-wow-duration="1.5s">
+                <div class="box">
+                  <div class="icon"><img src="img/GitLab.jpg" style="width:80%"/></div>
+                </div>
+              </div>
+
+              <div class="col-sm-3  wow bounceInUp" data-wow-duration="1.6s">
+                <div class="box">
+                  <div class="icon"><img src="img/Tensorflow.png" style="width:80%"/></div>
+                </div>
+              </div>
+              
+              <div class="col-sm-3 wow bounceInUp" data-wow-duration="1.7s">
+                <div class="box">
+                  <div class="icon"><img src="img/Python.jpg" style="width:80%"/></div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-sm-3 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="box">
+                  <div class="icon"><img src="img/Labelbox.png" style="width:80%"/></div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 wow bounceInUp" data-wow-duration="1.5s">
+                <div class="box">
+                  <div class="icon"><img src="img/MongoDB.png" style="width:80%"/></div>
+                </div>
+              </div>
+
+              <div class="col-sm-3  wow bounceInUp" data-wow-duration="1.6s">
+                <div class="box">
+                  <div class="icon"><img src="img/Jupyter.png" style="width:80%"/></div>
+                </div>
+              </div>
+            </div>    
+          </div>     
+              
+        </div>
+        
+
+      </div>
+    </section>
+    <!-- #scope -->
+
+    <br/>
+
+    <!-- Milestone Section -->
+    <section id="milestone">
+      <div class="container">
+        
+        <div class="section-header">
+          <h3>Research Milestone</h3>
+          <p>This section has details about EASY TALK project</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="main-timeline">
+              <div class="timeline" id="proposal">
+                <div class="timeline-icon"><i class="fa fa-cogs"></i></div>
+                <span class="year">2020-01-29</span>
+                <div class="timeline-content">
+                    <h5 class="title"> <span style="float:left">12%</span>Project Proposal</h5>
+                    <p class="description">
+                      <span style="color:#727cb6"><b>Presentation: 6% | Proposal Report: 6%</b></span><br/>
+                        The explaination how individual components are developing within the year to achieve the final research product.
+                    </p>
+                </div>
+              </div>
+              <div class="timeline" id="pp1">
+                <div class="timeline-icon"><i class="fa fa-spinner"></i></div>
+                <span class="year">2020-07-14</span>
+                <div class="timeline-content">
+                    <h5 class="title">Progress Presentation I<span style="float:right">15%</span></h5>
+                    <p class="description">
+                        A live demonstration with a presentation to justify the 50% completeness of the research product.
+                    </p>
+                </div>
+              </div>
+              <div class="timeline" id="pp2">
+                <div class="timeline-icon"><i class="fa fa-tasks"></i></div>
+                <span class="year">2020-09-25</span>
+                <div class="timeline-content">
+                  <h5 class="title"><span style="float:left">18%</span>Progress Presentation II</h5>
+                  <p class="description">
+                    <span style="color:#008B8B"><b>Presentation: 12% | Code Evaluation: 6% </b></span><br/>
+                    A live demonstration with a presentation to justify the 90% completeness of the research product.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline" id="demo">
+                <div class="timeline-icon"><i class="fa fa-laptop"></i></div>
+                <span class="year">2020</span>
+                <div class="timeline-content">
+                    <h5 class="title">Demo</h5>
+                    <p class="description">
+                        The video-captured demonstration to present the final view of the completed research product. 
+                    </p>
+                </div>
+              </div>
+              <div class="timeline" id="finalprep">
+                <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                <span class="year">2020</span>
+                <div class="timeline-content">
+                  <h5 class="title"><span style="float:left">29%</span>Final Assessment</h5>
+                  <p class="description">
+                    <span style="color:#727CB6"><b>Presentation: 10% | Final Reports: 19%</b></span><br/>
+                    The final detailed demonstration of the product which was done as the last stage of the research. 
+                  </p>
+                </div>
+              </div>
+              <div class="timeline" id="viva">
+                <div class="timeline-icon"><i class="fa fa-comments"></i></div>
+                <span class="year">2020</span>
+                <div class="timeline-content">
+                    <h5 class="title">Viva<span style="float:right">37%</span></h5>
+                    <p class="description">
+                      <span style="color:#008B8B"><b>PP I: 15% | PP II: 12% | Final Presentation: 10%</b></span><br/>
+                      The questionaire session with the research panel based on the flow of the research, EasyTalk.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        
+    </section>
+
+    <br/>
+
+    <!-- Documents Section -->
+    <section id="documents" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Research Documents</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <h4 class="title">Project Charter Document</h4>
+              <p class="description">
+                The formal documentation which used to share the understanding of the project’s scope, development, and objectives, while defining the roles and responsibilities of each member involved.
+              </p>
+              <br/>
+              <button class="btn btn-secondary btn-sm" type="button" aria-haspopup="true" aria-expanded="false" style="float:right">
+                <a style="text-decoration: none; color:white" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcdap%5Fsliit%5Flk%2FDocuments%2F2020%20REGULAR%2F2020%2D077%2DStudents%2FProject%20Registration%20Documents%2FProject%20Charter%2F2020%5F077%2Epdf&parent=%2Fpersonal%2Fcdap%5Fsliit%5Flk%2FDocuments%2F2020%20REGULAR%2F2020%2D077%2DStudents%2FProject%20Registration%20Documents%2FProject%20Charter">View Project Charter</a>
+              </button>
+              <br/>
+            </div>
+          </div>
+          <div class="col-md-4 col-md-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <h4 class="title">Proposal Document</h4>
+              <p class="description">
+                A detailed documentation which gives an idea to the audience of what problems EasyTalk intends to address and the methods through which intend to achieve the goal. This describes desired product's results and several quality constraints. 
+              </p>
+              <br/>
+              <button class="btn btn-secondary btn-sm" type="button" aria-haspopup="true" aria-expanded="false" style="float:right">
+                <a style="text-decoration: none; color:white" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcdap%5Fsliit%5Flk%2FDocuments%2F2020%20REGULAR%2F2020%2D077%2DStudents%2F1%2E%20Project%20Proposal%2FReport%2F2020%2D077%20%2D%20Group%20Research%20Proposal%20Report%2Epdf&parent=%2Fpersonal%2Fcdap%5Fsliit%5Flk%2FDocuments%2F2020%20REGULAR%2F2020%2D077%2DStudents%2F1%2E%20Project%20Proposal%2FReport">View Project Proposal</a>
+              </button>
+              <br/>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <h4 class="title">Research Log Book</h4>
+              <p class="description">
+                An online record book which used to record daily meetings conducted with supervisor and co-supervisor regarding the research's works. The daily updates in the GitLab accounts were also reported with the intension of tracking the improvements in the future.
+              </p>
+              <br/>
+              <button class="btn btn-secondary btn-sm" type="button" aria-haspopup="true" aria-expanded="false" style="float:right">
+                <a style="text-decoration: none; color:white" href="">View Log Book</a>
+              </button>
+              <br/>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box" style="overflow: visible !important;">
+              <h4 class="title">Status Document I</h4>
+              <p class="description">
+                Status Document-I was maintained individually while containing all the details about the current progress of each individual component. To prove the progresses the Gantt charts, WBSs, components' milestones and the details of the meetings with the supervisor were presented.
+              </p>
+              <br/>
+              <div class="btn-group dropup" style="float:right">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMenuLink">
+                  View Status Documents-I
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="font-size: 13px;">
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/2.%20Status%20Document%201/IT17050272%20-%20Status%20Document%201.pdf?CT=1604049020137&OR=ItemsView">Status Document I - IT17050272</a>
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/2.%20Status%20Document%201/IT17032766%20-%20Status%20Document%201.pdf?CT=1604049015578&OR=ItemsView">Status Document I - IT17032766</a>
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/2.%20Status%20Document%201/IT17068192-Status%20Document%201.pdf?CT=1604049026022&OR=ItemsView">Status Document I - IT17068192</a>
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/2.%20Status%20Document%201/IT17143950%20-%20Status%20Document%201.pdf?CT=1604049030346&OR=ItemsView">Status Document I - IT17143950</a>
+                </div>
+              </div>
+              <br/>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <h4 class="title">Status Document II</h4>
+              <p class="description">
+                Status Document-II also maintained individually and contains same cotents as Status documet I. Additionally, this documents contains the acceptance letters got from the conferences.
+              </p>
+              <br/>
+              <button class="btn btn-secondary btn-sm" type="button" aria-haspopup="true" aria-expanded="false" style="float:right">
+                <a style="text-decoration: none; color:white" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fcdap%5Fsliit%5Flk%2FDocuments%2F2020%20REGULAR%2F2020%2D077%2DStudents%2F7%2E%20Status%20Document%202">View Status Documents-II</a>
+              </button>
+              <br/>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box" style="overflow: visible !important;">
+              <h4 class="title">Final Reports</h4>
+              <p class="description">
+               Five detailed documentations contain information about the overall product and it's 4 main components respectively. Each report evaluates how the research was executed, being honest and objective. 
+              </p>
+              <div class="btn-group dropup" style="float:right">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="dropdownMenuLink">
+                  View Final Reports
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="font-size: 13px;">
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/6.%20Final%20Report%20&%20Presentation/Final%20Reports/2020_077.pdf?CT=1604047673932&OR=ItemsView">Final Report - 2020_077</a>
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/6.%20Final%20Report%20&%20Presentation/Final%20Reports/IT17050272.pdf?CT=1604047686769&OR=ItemsView">Final Report - IT17050272</a>
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/6.%20Final%20Report%20&%20Presentation/Final%20Reports/IT17032766.pdf?CT=1604047681080&OR=ItemsView">Final Report - IT17032766</a>
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/6.%20Final%20Report%20&%20Presentation/Final%20Reports/IT17068192.pdf?CT=1604047693831&OR=ItemsView">Final Report - IT17068192</a>
+                  <a class="dropdown-item" href="https://mysliit-my.sharepoint.com/personal/cdap_sliit_lk/Documents/2020%20REGULAR/2020-077-Students/6.%20Final%20Report%20&%20Presentation/Final%20Reports/IT17143950.pdf?CT=1604047700075&OR=ItemsView">Final Report - IT17143950</a>
+                </div>
+              </div>
+              <br/>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- #documents -->
+
+    <br/>
+
+    <!-- Presentations Section -->
+    <section id="presentations" class="section-bg wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Research Presentations</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-10 mb-4" style="height: 50%; width: 40%;">
+            <div class="card wow bounceInUp">
+              <div class="card-body">
+                <h5 class="card-title">Proposal Presentation</h5>
+                <a href="https://mysliit-my.sharepoint.com/:p:/r/personal/cdap_sliit_lk/_layouts/15/Doc.aspx?sourcedoc=%7BB6693B25-074E-4F2B-AD14-27B59DD47963%7D&file=Presentation.pptx&action=edit&mobileredirect=true" class="readmore" style="float: right;">
+                  View Presentation 
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-10 mb-4" style="height: 50%; width: 40%;">
+            <div class="card wow bounceInUp">
+              <div class="card-body">
+                <h5 class="card-title">Progress Presentation I</h5>
+                <a href="https://mysliit-my.sharepoint.com/:p:/r/personal/cdap_sliit_lk/_layouts/15/Doc.aspx?sourcedoc=%7B6A060EF7-2F1B-4500-95C8-F4CE32F37FA0%7D&file=2020_077%20-%20Progress%20Presentation%201.pptx&action=edit&mobileredirect=true" class="readmore" style="float: right;">View Presentation  </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-10 mb-4" style="height: 50%; width: 40%;">
+            <div class="card wow bounceInUp">
+              <div class="card-body">
+                <h5 class="card-title">Progress Presentation II</h5>
+                <a href="https://mysliit-my.sharepoint.com/:p:/r/personal/cdap_sliit_lk/_layouts/15/Doc.aspx?sourcedoc=%7BF7F879FC-0462-42E6-A2AD-1310AB0D6EA5%7D&file=2020_077.pptx&action=edit&mobileredirect=true" class="readmore" style="float: right;">View Presentation  </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-10 mb-4" style="height: 50%; width: 40%;">
+            <div class="card wow bounceInUp">
+              <div class="card-body">
+                <h5 class="card-title">Final Presentation</h5>
+                <a href="#" class="readmore" style="float: right;">View Presentation  </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Presentations Section -->
+
+    <br/>
+
+    <!-- Team Section -->
+    <section id="aboutUs">
+      <div class="container">
+        <div class="section-header">
+          <h3>About Team</h3>
+        </div>
+        <div class="d-flex justify-content-center mb-5"><h2>SUPERVISOR & CO-SUPERVISOR</h2></div>
+        <div class="row justify-content-around mb-4">
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>S.M.B. Harshanath</h4>
+                  <span>supervisor</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Jesuthasan Alosius</h4>
+                  <span>co-supervisor </span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="d-flex justify-content-center mb-5"><h2>TEAM MEMBERS</h2></div>
+        
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/manoj.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>D. MANOJ KUMAR </h4>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/amashi.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>G. M. A. S. BASTIANSZ</h4>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/nanthu1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>S. THAVANANTHAN</h4>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/bavan.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>K. BAVANRAJ</h4>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- #aboutUs -->
+
+   <br/>
+    
+    <!-- Contact Section -->
+    <section id="contactUs">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row wow fadeInUp">
+
+          <div class="col-lg-2"></div>
+
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>easytalk202077@gmail.com</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+94 76 760 1447</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+94 71 648 2724</p>
+              </div>
+            </div>
+
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- #contactUs -->
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>EASYTALK TEAM</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">EASYTALK TEAM</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
